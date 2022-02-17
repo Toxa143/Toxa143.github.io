@@ -1,0 +1,80 @@
+nav {
+    width: 960px;
+    margin: 0 auto;
+    object-position: 100%;
+}
+nav::before {
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(192, 196, 0);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: black;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+
+}
+
+ul li a:hover {
+    background: rgb(0, 68, 170);
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 18px;
+    background-image: url("https://policyoptions.irpp.org/wp-content/uploads/sites/2/2012/06/WordPress-Image-12.jpg");
+}
+
+.vid1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.vid2 {
+    position: absolute;
+    top: 240px;
+    left: 500px;
+
+}
+
+.vid3 {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.vid4 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+.vid5 {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}

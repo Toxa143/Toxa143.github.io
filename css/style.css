@@ -1,0 +1,159 @@
+
+nav {
+    width: 960px;
+    margin: 0 auto;
+    object-position: 100%;
+}
+nav::before {
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(192, 196, 0);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: black;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+
+}
+
+ul li a:hover {
+    background: rgb(0, 68, 170);
+}
+
+.zno1 {
+    width: 400px;
+    height: 550px;
+    margin: 30px auto;
+    background-color: rgb(255, 251, 251);
+    box-shadow: 0 5px 10px #ccc;
+    padding: 25px;
+    margin-left: 40px;
+    border-radius: 5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 18px;
+    background-image: url("https://policyoptions.irpp.org/wp-content/uploads/sites/2/2012/06/WordPress-Image-12.jpg");
+}
+
+.imgzno {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 25px;
+    margin-left: 70px;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+
+.zag1 {
+    font-size: 30px;
+    position: absolute;
+    left: 195px;
+    top: 285px;
+}
+
+.text1 {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.zno2 {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    width: 400px;
+    height: 550px;
+    margin: 30px auto;
+    background-color: rgb(255, 251, 251);
+    box-shadow: 0 5px 10px #ccc;
+    padding: 25px;
+    margin-left: 40px;
+    border-radius: 5%;
+}
+.imgzno2 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 25px;
+    margin-left: 70px;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+
+.zag2 {
+    font-size: 30px;
+    position: absolute;
+    left: 165px;
+    top: 200px;
+}
+
+.text2 {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.zno3 {
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+    width: 400px;
+    height: 550px;
+    margin: 30px auto;
+    background-color: rgb(255, 251, 251);
+    box-shadow: 0 5px 10px #ccc;
+    padding: 25px;
+    margin-left: 40px;
+    border-radius: 5%;
+}
+.imgzno3 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 25px;
+    margin-left: 70px;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+
+.zag3 {
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+
+.text3 {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+
